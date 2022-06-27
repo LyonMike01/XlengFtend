@@ -1,0 +1,434 @@
+
+/* BODY SEG */
+
+body {
+    margin: 0;
+    background: rgb(222, 222, 233);
+    width: 100%;
+}
+
+/* Mutual Param and Values SEG*/
+
+.prop {
+    width: 15%;
+    height: 60px;
+    float: left;
+    margin: 10px;
+}
+
+
+/* First DIV SEG */
+
+#nav-div {
+    width: 100%;
+    height: 70px;
+    margin-bottom: 50px;
+    padding: 15px 10px;
+    position: fixed;
+    background: rgb(222, 222, 233);
+}
+
+
+.nav-div-prop {
+    background: linear-gradient(white, rgb(122, 122, 194));
+    width: 90%;
+    height: 80px;
+    margin: 0 auto 0;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 4px 4px 1px 2px white,
+                -4px -4px 1px 2px rgb(122, 122, 194);
+}
+
+.dropDown {
+    width: 140px;
+    height: 160px;
+    background: white;
+    margin: 0 20px 0 14rem;
+    color: black;
+    display: inline-flex;
+    position: fixed;
+    flex-direction: column;
+    line-height: 0;
+    text-align: left;
+    border-radius: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    opacity: ;
+    cursor: pointer;
+}
+
+h4 {
+    font-size: smaller;
+    margin: 10px 20px;
+    height: 15px;
+    cursor: pointer;
+
+}
+
+.dD2 {
+    cursor: pointer;
+    padding-top: 10px;
+    width: 120px;
+    margin: 0 0 0 23.5rem;
+    height: 110px;
+
+}
+
+.dD3 {
+    height: fit-content;
+    width: fit-content;
+    margin-left: 68%;
+    display: none;
+}
+
+.nav1 {
+    cursor: pointer;
+    width: 100px;
+    margin-right: 10px;
+}
+
+.snap {
+    margin: 0 10px 100px;
+    font-size: 40px;
+    font-family: 'Titan One', cursive;
+}
+
+.nav2 {
+    height: 50px;
+    width: 31.25rem;
+    margin-right: 140px;
+    text-align: left;
+    padding-top: 10px;
+    cursor: pointer;
+
+}
+
+li {
+    color: rgb(39, 39, 37);
+    list-style: none;
+    display: inline;
+    margin: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+}
+
+li:hover {
+    font-weight: bolder;
+}
+
+.aaa {
+    width: auto;
+    height: auto;
+    margin: 0;
+    display: inline;
+}
+
+.nav3 {
+    width: 16rem;
+    text-align: right;
+    float: right;
+}
+
+button {
+    margin: 20px 10px 10px;
+    border: none;
+    height: 30px;
+    width: 80px;
+    color: rgb(39, 39, 37);
+    border-radius: 15px;
+    background: white;
+    box-shadow: 2px 2px 1px 3px rgb(122, 122, 194),
+                -2px -2px 1px 2px white;
+    font-family: 'Kaushan Script', cursive;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+button:hover {
+    font-weight: bolder;
+    color: black;
+    background: linear-gradient(to left, white, blue);
+
+}
+
+/* Second DIV SEG */
+
+section {
+    width: 70rem; 
+    height:35rem;
+    margin: 7rem auto 0;
+}
+
+#img-div {
+    height: 30rem;
+    width: 500px;
+    float: right;
+    margin-top: 20px;
+}
+
+/* Third DIV SEG*/
+
+#content-div {
+    height: 90%;
+    width: 45%;
+    float: left;
+    margin: 60px 40px 40px;
+ 
+}
+
+
+.content {
+    height: 150px;
+    width: 80%;
+    margin: 20px auto;
+
+}
+
+.cnt1 {
+    font-size: 30px;
+    height: 100px;
+    width: 250px;
+    margin: 3rem 0 40px;
+    padding-left: 50px;
+
+}
+
+.cnt2 {
+    height: 80px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.cnt3 {
+    height: 70px;
+    margin-bottom: 40px;
+}
+
+.cnt4 {
+    margin-top: 20px;
+    height: 80px;
+}
+
+
+.learn {
+    width: 7rem;
+    height: 2.5rem;
+    background: black;
+    color: white;
+    box-shadow: none;
+    margin-left: auto;
+    font-weight: 100;
+    
+}
+.learn:hover {
+    border: 2px solid black;
+    background: white;
+}
+
+
+/* Forth DIV SEG*/
+
+
+#forth {
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(rgb(122, 122, 194), white);
+    display: flex;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.lastSetImg {
+      
+    width: 65px; 
+    height: 15px; 
+    margin: 10px;
+    
+    }
+
+a {
+    text-decoration: none;
+}
+
+#menu {
+    display: none;
+}
+
+/* Responsiveness SEG */
+
+
+@media only screen and (max-width: 1240px) {
+
+     #menu {
+        display: inline;
+        margin-top: 35px;
+        float: right;
+        margin-right: 40px;
+    }
+    
+    .dD3 {
+        width: max-content;
+        padding-right: 10px;
+        padding-left: 15px;
+        text-align: left;
+        margin-left: 81%;
+    }
+
+    button {
+        display: block;
+    }
+
+    .nav2, .nav3 {
+        display: none;
+    }
+
+    section {
+        padding: 0 0 0 20px;
+        margin-top: 1rem;
+        height: 55rem;
+        width: 500px;
+
+    }
+
+
+    #img-div {
+        float: left;
+        display: block;
+    }
+
+    #content-div {
+        margin-left: 10px;
+        display: inline;
+        margin-top: 1rem;
+        width: 500px;
+        height: 0;
+    }
+
+    .cnt1 {
+        width: 400px;
+        margin: 0;
+        text-align: center;
+        height: 60px;
+    }
+
+    .cnt2 {
+        margin-top: 0;
+        width: 380px;
+        text-align: center;
+    }
+
+    .cnt3 {
+        width: 7rem;
+        height: 20px;
+    }
+    .learn {
+        margin: 0 auto;
+    }
+
+    .cnt4 {
+        margin: 0 auto;
+        padding-left: 60px;
+    }
+
+    #forth {
+        width: 100%;
+    }
+    .ft-h4 {
+        padding-left: 45px;
+    }
+
+
+}
+
+@media only screen and (max-width: 970px) {
+    .dD3 {
+        margin-left: 80%;
+    }
+}
+
+@media only screen and (max-width: 930px) {
+    .dD3 {
+        margin-left: 78%;
+    }
+}
+
+@media only screen and (max-width: 810px) {
+    .dD3 {
+        margin-left: 75%;
+    }
+}
+
+@media only screen and (max-width: 680px) {
+    .dD3 {
+        margin-left: 72%;
+    }
+}
+
+@media only screen and (max-width: 584px) {
+    .dD3 {
+        margin-left: 68%;
+    }
+}
+
+@media only screen and (max-width: 556px) {
+    #forth {
+        width: 535px;
+    }
+
+    section {
+        margin-left: 80px;
+        width: 340px;
+        height: fit-content;
+        padding: 30px;
+        display: block;
+    }
+
+
+    #img-div {
+        width: 100%;
+        height: fit-content;
+        margin-left: 20%;
+        margin: 0 auto;
+    }
+
+    #content-div {
+        display: block;
+        width: 100%;
+        height: 200px;
+        margin: 0 auto;
+
+    }
+
+    .cnt1 {
+        width: fit-content;
+        margin: 0 auto;
+        padding: 0;
+        font-size: 22px;
+        font-weight: bolder;
+    }
+
+    .cnt2 {
+        width: 250px;
+        margin: 0 auto;
+        padding: 0;
+        font-size: 10px;
+        font-weight: lighter;
+
+    }
+
+    .cnt4 {
+        padding: 10px 0 0;
+        width: fit-content;
+        height: fit-content;
+    }
+
+    .lastSetImg {
+        margin: 2px;
+    }
+
+    footer {
+        width: 100%;
+        display: block;
+        margin-top: 50rem;
+    }
+}
+
